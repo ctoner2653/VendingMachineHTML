@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vending Machine</title>
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.css"
+              rel="stylesheet">
+        <link href="css/home.css" 
+              rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1><center>Vending Machine</center></h1>
+            <hr/>
+            <div class="row">
+            <div class="col-md-4" id="item1">
+                <div class="row ">
+                   
+                    <div class="col-md-2 offset-md-3">
+                        <p id="item-number1">1</p>
+                    </div>
+                    <div class="">
+                        <p id="item-name1">Snickers</p>
+                    </div>
+                    <div class="col-md-5">
+                        <p id="item-price1">1.85$</p>
+                    </div>
+                    <div class="col-md-5">
+                        <p style="display: inline">Quanity Left: </p><p id="item-quanity1" style="display: inline">10
+                        </p>
+                    </div>
+                    
+                    
+                </div>
+            </div>  
+            <div class="col-md-4" id="item2">
+                <div class="row ">
+                    <div class="col-md-3 offset-md-3">
+                        <p id="item-number2">2</p>
+                    </div>
+                    <div class="">
+                        <p id="item-name2">Snickers</p>
+                    </div>
+                    <div class="col-md-5">
+                        <p id="item-price2">1.85$</p>
+                    </div>
+                   <div class="col-md-5">
+                        <p style="display: inline">Quanity Left: </p><p id="item-quanity2" style="display: inline">10
+                        </p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="col-md-4" id="item3">
+                <div class="row ">
+                    <div class="col-md-3 offset-md-3">
+                        <p id="item-number3">3</p>
+                    </div>
+                    <div class="">
+                        <p id="item-name3">Snickers</p>
+                    </div>
+                    <div class="col-md-5">
+                        <p id="item-price3">1.85$</p>
+                    </div>
+                    <div class="col-md-5">
+                        <p style="display: inline">Quanity Left: </p><p id="item-quanity3" style="display: inline">10
+                        </p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="float-right">
+            <h2 style="margin: 15px; margin-left: 50px">Total $ In</h2>
+            <input type="number" id="inserted-money" value="0" />
+            <button id="dollar" style="margin: 1px; margin-top: 15px">Add Dollar</button>
+            <button id="quarter" style="margin-left: 3px; margin-top: 15px">Add Quarter</button>
+            <button id="dime" style="margin-left: 3px; margin-top: 15px">Add Dime</button>
+            <button id="nickel" style="margin-left: 6px; margin-top: 15px">Add Nickel</button>
+                <hr/>
+                
+            </div>
+            <div class="col-md-4" id="item4">
+                <div class="row ">
+                    <div class="col-md-3 offset-md-3">
+                        <p id="item-number4">4</p>
+                    </div>
+                    <div class="c">
+                        <p id="item-name4">Snickers</p>
+                    </div>
+                    <div class="col-md-5">
+                        <p id="item-price4">1.85$</p>
+                    </div>
+                   <div class="col-md-5">
+                        <p style="display: inline">Quanity Left: </p><p id="item-quanity4" style="display: inline">10
+                        </p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="col-md-4" id="item5">
+                <div class="row ">
+                    <div class="col-md-3 offset-md-3">
+                        <p id="item-number5">5</p>
+                    </div>
+                    <div class="">
+                        <p id="item-name5">Snickers</p>
+                    </div>
+                    <div class="col-md-5">
+                        <p id="item-price5">1.85$</p>
+                    </div>
+                    <div class="col-md-5">
+                        <p style="display: inline">Quanity Left: </p><p id="item-quanity5" style="display: inline">10
+                        </p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="col-md-4" id="item6">
+                <div class="row ">
+                    <div class="col-md-3 offset-md-3">
+                        <p id="item-number6">6</p>
+                    </div>
+                    <div class="">
+                        <p id="item-name6">Snickers</p>
+                    </div>
+                    <div class="col-md-5">
+                        <p id="item-price6">1.85$</p>
+                    </div>
+                    <div class="col-md-5">
+                        <p style="display: inline">Quanity Left: </p><p id="item-quanity6" style="display: inline">10
+                        </p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+             <div class="float-right">
+            <h2 style="margin: 15px; margin-left: 50px">Messages</h2>
+            <input type="text" id="message" />
+             <h4>Item:</h4>
+            <input type="text" id="item-id"/>                      
+            <button style="margin-left: 6px; margin-top: 15px">Make Purchase</button>
+                <hr/>
+            </div>   
+            <div class="col-md-4" id="item7">
+                <div class="row ">
+                    <div class="col-md-3 offset-md-3">
+                        <p id="item-number7">7</p>
+                    </div>
+                    <div class="">
+                        <p id="item-name7">Snickers</p>
+                    </div>
+                    <div class="col-md-5">
+                        <p id="item-price7">1.85$</p>
+                    </div>
+                    <div class="col-md-5">
+                        <p style="display: inline">Quanity Left: </p><p id="item-quanity7" style="display: inline">10
+                        </p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="col-md-4" id="item8">
+                <div class="row ">
+                    <div class="col-md-3 offset-md-3">
+                        <p id="item-number8">8</p>
+                    </div>
+                    <div class="">
+                        <p id="item-name8">Snickers</p>
+                    </div>
+                    <div class="col-md-5">
+                        <p id="item-price8">1.85$</p>
+                    </div>
+                   <div class="col-md-5">
+                        <p style="display: inline">Quanity Left: </p><p id="item-quanity8">10
+                        </p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="col-md-4" id="item9">
+                <div class="row ">
+                    <div class="col-md-3 offset-md-3">
+                        <p id="item-number9">9</p>
+                    </div>
+                    <div class="">
+                        <p id="item-name9">Snickers</p>
+                    </div>
+                    <div class="col-md-5">
+                        <p id="item-price9">1.85$</p>
+                    </div>
+                    <div class="col-md-5">
+                        <p style="display: inline">Quanity Left: </p><p id="item-quanity9" style="display: inline">10
+                        </p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="float-right">
+            <h2 style="margin: 15px; margin-left: 50px">Change</h2>
+            <input type="number" id="give-change" value="0" />
+            <button style="margin: 1px; margin-top: 15px" id="change-btn">Change Return</button>
+            </div>
+           
+        </div>
+           
+        </div>  
+               
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/home.js"></script>
+    </body>
+</html>

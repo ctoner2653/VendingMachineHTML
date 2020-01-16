@@ -1,0 +1,16 @@
+#item1,#item2,#item3,#item4,#item5,#item6,#item7,#item8,#item9{ 
+    width:25%;
+    border:2px solid;
+    padding: 95px;
+    margin: 18px;
+}
+#item1:hover,#item2:hover,#item3:hover,#item4:hover,#item5:hover,#item6:hover,#item7:hover,#item8:hover,#item9:hover {
+    border-color: black;
+    border: 2px dotted;
+}
+#item-number1,#item-number2,#item-number3,#item-number4,#item-number5,#item-number6,#item-number7,#item-number8,#item-number9{
+   font-size: 30px;
+}
+body{
+    background-color: whitesmoke;
+}
